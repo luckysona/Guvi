@@ -1,5 +1,5 @@
 ''' PROGRAM TO CHECK WHETHER A NUMBER IS POSITIVE OR NEGATIVE OR ZERO '''
-a=int(input("Input : "))
+a=int(input())
 if(a==0):
   print("Zero")
 elif(a>0):
