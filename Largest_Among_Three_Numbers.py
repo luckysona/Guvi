@@ -1,7 +1,5 @@
 ''' PROGRAM TO CHECK THE LARGEST AMONG THREE NUMBERS BY USER '''
-a=int(input())
-b=int(input())
-c=int(input())
+a,b,c=input().split()
 if(a>b):
   if(a>c):
     print(a)
