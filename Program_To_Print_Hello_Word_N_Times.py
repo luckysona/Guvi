@@ -1,4 +1,4 @@
 ''' PROGRAM TO PRINT 'HELLO' WORD N TIMES '''
 a=int(input())
-b="Hello"
-print(b*a)
+for i in range(a):
+  print("Hello \n")
