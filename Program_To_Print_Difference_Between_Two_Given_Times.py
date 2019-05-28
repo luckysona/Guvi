@@ -1,0 +1,21 @@
+''' PROGRAM TO PRINT DIFFERENCE BETWEEN THE TWO GIVEN TIME '''
+a,b=input().split()
+a=int(a)
+b=int(b)
+c,d=input().split()
+c=int(c)
+d=int(d)
+e=(a*60)+b
+f=(c*60)+d
+if(f>e):
+  m=f-e
+else:
+  m=e-f
+h=0
+if(m<=59):
+  print(h,m)
+else:
+  while(m>59):
+    m-=60
+    h+=1
+  print(h,m)
