@@ -9,4 +9,4 @@ for num in range(1,a+1):
     next=n1+n2
     n1=n2
     n2=next
-  print(next)
+  print(next,end=" ")
