@@ -1,4 +1,5 @@
 ''' PROGRAM TO PRINT AVERAGE OF GIVEN LIST ELEMENTS '''
+a=int(input())
 istring=input()
 l=istring.split()
 s=0
