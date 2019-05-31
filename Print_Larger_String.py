@@ -5,4 +5,4 @@ if(len(a)>len(b)):
 elif(len(b)>len(a)):
   print(b)
 else:
-  print(a)
+  print(b)
