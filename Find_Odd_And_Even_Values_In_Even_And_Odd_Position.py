@@ -5,8 +5,8 @@ l=i_string.split()
 for i in range(0,len(l)):
   if(i%2!=0):
     if(int(l[i])%2==0):
-      print(l[i],end=" ")
+      print(int(l[i]),end=" ")
   elif(i%2==0):
     if(int(l[i])%2!=0):
-      print(l[i],end=" ")
+      print(int(l[i]),end=" ")
     
