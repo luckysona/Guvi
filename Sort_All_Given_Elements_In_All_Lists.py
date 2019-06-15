@@ -9,4 +9,5 @@ for i in l:
   for j in a1:
     l1.append(j)
 l1.sort()
-print(l1)
+for i in l1:
+  print(i,end=" ")
