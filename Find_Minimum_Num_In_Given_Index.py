@@ -1,7 +1,7 @@
-s1,s2=map(int,input().split())
-L=[int(i) for i in input().split()]
+s1,b=map(int,input().split())
+L=list(map(int,input().split()))
 temp=[]
-for i in range(s2):
+for i in range(b):
     d=list(map(int,input().split()))
     l=d[0]
     for j in range(min(d)-1,max(d)):
