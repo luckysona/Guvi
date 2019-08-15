@@ -8,3 +8,4 @@ for i in range(0,len(arr)):
 if(b==1):
   print('yes')
 else:
+  print('no')
