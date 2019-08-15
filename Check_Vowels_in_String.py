@@ -1,13 +1,14 @@
 ''' CHECK VOWELS ARE PRESENT IN THE GIVEN STRING OR NOT '''
 str=input()
+a=list(str)
 list=['a','e','i','o','u']
-a=0
-for i in str:
-  if i in list:
-    a=1
-  else:
-    a=0
-if(a==1):
+b=False
+for i in range(0,len(a)):
+  for j in range(0,len(list)):
+    if(a[i]==list[j]):
+      b=True
+      break
+if(b==True):
   print('yes')
 else:
   print('no')
