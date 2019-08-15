@@ -1,0 +1,3 @@
+''' PRINT THE STRING WITHOUT USING SEMICOLON '''
+N=input()
+print(N)
